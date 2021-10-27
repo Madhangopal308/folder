@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="username" value="http://adactinhotelapp.com/"></parameter>
+  <parameter name="password" value="maven"></parameter>
+  <parameter name="username1" value="Madhan0129"></parameter>
+  <parameter name="password1" value="M7A65B"></parameter>
+  
+    <classes>
+      <class name="org.sample.testing"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
